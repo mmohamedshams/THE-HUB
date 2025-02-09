@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" >
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.10.1"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title id="service-title"></title>
+    <link rel="icon" href="image/icon.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css"  id="theme">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+      
+<div class="header"> 
+        <nav class="header_slider">
+            <a id="menu-toggle"><i class="fas fa-bars"></i></a>
+           
+        </nav>
+        <div class="right-items">
+            <a href="#" class="Customize" id="Customize"></a>
+        </div>
+        <div class="popup-box">
+            <h1 id="Pick_Service_Type">Pick Service Type</h1>
+            <div class="popup-buttons-container">
+            <a href="Residential.html"><button class="popup-button" id="Residential">Residential</button></a>
+            <a href="Commercial.html"><button class="popup-button" id="Commercial">Commercial</button></a>
+        </div>
+        
+        </div>
+        
+        <div class="overlay1"></div>
+        
+        
+        <div id="slider">
+
+           
+            <a class="logo" href=""><img src="image/thehub-logo.png" alt="Day Image" id="themeImage">
+            </a>
+            <p>Discover a world of possibilities!</p>
+            <nav class="slider-button">
+                <a href="index.html"><button id="homeButton"></button></a>
+                <a href="aboutUs.html"><button id="aboutButton"></button></a>
+                <a href="services.html"><button id="servicesButton"></button></a>
+                <a href="Packages.html"><button id="PackagesButton"></button></a>
+                <a href="contact.html"><button id="contactButton"></button></a>
+                <a href="image/4d839f51-622b-4fdc-a647-864fd929ad1e.pdf" target="_blank"> <button id="profileButton"></button></a>
+                 <button id="languageButton"></button>  
+            </nav>
+</div>
+<section class="main-content" style="display: none;">
+    <img src="image/New Project (1).jpg" alt="">
+    <a href="Packages.html" target="_blank"><button id="Packages"></button></a>
+</section>
+
+<section class="weclome" style="display: none;">
+    <div class="column one-third">
+        <h2 id="Home_Maintenance_Services"></h2>   
+    </div>
+    <div class="column two-thirds">    
+    <p id="24_7_home_maintenance"></p>
+    </div>
+</section> 
+<section class="thehub" style="display: none;">
+    <h1 id="HowWorks"></h1>
+    <div class="gallery">
+        <div class="image-item">
+            <img src="image/New folder/1.png" id="gallery1">
+            <p id="Works1"></p>
+        </div>
+        <div class="image-item">
+            <img src="image/New folder/2.png" id="gallery2">
+            <p id="Works2"></p>
+        </div>
+        <div class="image-item">
+            <img src="image/New folder/3.png" id="gallery3">
+            <p id="Works3"></p>
+        </div>
+        <div class="image-item">
+            <img src="image/New folder/4.png" id="gallery4">
+            <p id="Works4"></p>
+        </div>
+    </div>
+    <button onclick="alert('تم الضغط على الزر!')" id="BOOKING_NOW"></button>
+</section>
+</div>
+<section class="service">
+    <h1 id="Services"></h1>
+    <div class="container_service">
+        <div class="box_service">
+            <img src="image/AC.jpg" alt="صورة 1">
+            <p id="AC"></p>
+        </div>
+        <div class="box_service">
+            <img src="image/Electrical.jpg" alt="صورة 2">
+            <p id="ELECTRICAL"></p>
+        </div>
+        <div class="box_service">
+            <img src="image/AC.jpg" alt="صورة 3">
+            <p id="PLUMBING"></p>
+        </div>
+        <div class="box_service">
+            <img src="image/Electrical.jpg" alt="صورة 4">
+            <p id="BATHROOM"></p>
+        </div>
+        <div class="box_service">
+            <img src="image/AC.jpg" alt="صورة 5">
+            <p id="CARPENTRY"></p>
+        </div>
+       
+        <div class="box_service">
+            <img src="image/AC.jpg" alt="صورة 8">
+            <p id="PAINTING"></p>
+        </div>
+        <div class="box_service">
+            <img src="image/Electrical.jpg" alt="صورة 9">
+            <p id="TILES"></p>
+        </div>
+        <div class="box_service">
+            <img src="image/AC.jpg" alt="صورة 10">
+            <p id="CURTAIN"></p>
+        </div>
+        <div class="box_service">
+            <img src="image/Electrical.jpg" alt="صورة 11">
+            <p id="MOVERS-HOME"></p>
+        </div>
+    </div>
+</section>
+<div class="container5">
+    <div class="footer-logo" style="float: right;">
+        <img src="image/thehub-logo-whaite.png" alt="شعار الشركة">
+        <h1 id="welcome"></h1>
+        <p id="welcome-text"></p>
+    </div>
+        <div class="footer-links">
+            <div class="footer-link-group">
+                <a href="index.html" id="homeButton1"></a>
+                <a href="aboutUs.html" id="aboutButton1"></a>
+                <a href="services.html"id="servicesButton1"></a>
+                <a href="Packages.html"id="PackagesButton1"></a>
+                <a href="contact.html" id="contactButton1"></a>
+            </div>
+        </div>
+       
+        <div class="footer-links">
+            <div class="footer-link-group">
+                <a href="#" id="profileButton1"></a>
+                <h1 id="join-us"></h1>
+                <div class="social-media-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/m.hub.ae/"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/mhubae2023" ><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/the-hub-for-general-maintenance" ><i class="fab fa-linkedin"></i></a>
+                </div>
+                <h1 id="our-app"></h1>
+                <div class="our_app">
+                    <a href="https://play.google.com/store/apps/details?id=com.services.maintance"> <img src="image/google-play.png" alt=""> </a>
+                    <a href="https://apps.apple.com/us/app/the-hub/id6448638671"> <img src="image/download-apple.png" alt=""></a>
+                 </div>
+                
+            </div>
+        </div>
+        <div class="footer-links">
+            <div class="map">
+                <iframe class="map-footer"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15000.3!2d54.385040!3d24.471149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2z25.276987N, 55.296249E!5e0!3m2!1sen!2s!4v1607289332461!5m2!1sen!2s"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>         
+</div>
+<footer>
+    <div class="footer-text">
+    </div>
+</footer>
+</div>
+    <script src="script.js"></script>
+    <script src="language.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</body>
+</html>  

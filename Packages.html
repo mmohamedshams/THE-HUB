@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" >
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.10.1"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title id="Packages-title"></title>
+    <link rel="icon" href="image/icon.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css"  id="theme">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo&family=Cairo+Play:wght@300&family=Dancing+Script:wght@700&family=Salsa&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+     
+    <div class="content1">
+      
+        
+        <div class="header">
+            <nav class="header_slider">
+                <a id="menu-toggle"><i class="fas fa-bars"></i></a>
+               
+            </nav>
+            <div class="right-items">
+                <a href="#" class="Customize" id="Customize"></a>
+            </div>
+            <div class="popup-box">
+                <h1 id="Pick_Service_Type">Pick Service Type</h1>
+                <div class="popup-buttons-container">
+                <a href="Residential.html"><button class="popup-button" id="Residential">Residential</button></a>
+                <a href="Commercial.html"><button class="popup-button" id="Commercial">Commercial</button></a>
+            </div>
+            
+            </div>
+            
+            <div class="overlay1"></div>
+            
+            
+            <div id="slider">
+    
+               
+                <a class="logo" href="index.html"><img src="image/thehub-logo.png"  alt="Day Image" id="themeImage">
+                </a>
+                <p>Discover a world of possibilities!</p>
+                <nav class="slider-button">
+                    <a href="index.html"><button id="homeButton"></button></a>
+                    <a href="aboutUs.html"><button id="aboutButton"></button></a>
+                    <a href="services.html"><button id="servicesButton"></button></a>
+                    <a href="Packages.html"><button id="PackagesButton"></button></a>
+                    <a href="contact.html"><button id="contactButton"></button></a>
+                    <a href="image/4d839f51-622b-4fdc-a647-864fd929ad1e.pdf" target="_blank"> <button id="profileButton"></button></a>
+                     <button id="languageButton"></button>    
+                   
+                </nav>
+               
+            </div>
+    
+        </div>
+        <section class="main-content" style="display: none;">
+            <img src="image/New Project (1).jpg" alt="">
+            <a href="Packages.html" target="_blank"><button id="Packages">Maintenance Packages</button></a>
+        </section>
+        
+        <section class="weclome" style="display: none;">
+            <div class="column one-third">
+                <h2 id="Home_Maintenance_Services">Home Maintenance Services</h2>   
+            </div>
+            <div class="column two-thirds">    
+            <p id="24_7_home_maintenance">A unique and groundbreaking 24/7 home maintenance service providing customized and personalized solutions to homeowners through a network of skilled and highly capable workers.</p>
+            </div>
+        </section> 
+        <section class="thehub" style="display: none;">
+            <h1 id="HowWorks">How it works</h1>
+            <div class="gallery">
+                <div class="image-item">
+                    <img src="image/New folder/1.png" id="gallery1">
+                    <p id="Works1">Choose a date and time that works for you, and tell us what you need.</p>
+                </div>
+                <div class="image-item">
+                    <img src="image/New folder/2.png" id="gallery2">
+                    <p id="Works2">THEHUB will find the perfect pro in minutes.</p>
+                </div>
+                <div class="image-item">
+                    <img src="image/New folder/3.png" id="gallery3">
+                    <p id="Works3">Your THEHUB gets the job done while you relax.</p>
+                </div>
+                <div class="image-item">
+                    <img src="image/New folder/4.png" id="gallery4">
+                    <p id="Works4">THEHUB syncs your job status, messages, and receipt all in one place.</p>
+                </div>
+            </div>
+            <button onclick="alert('تم الضغط على الزر!')" id="BOOKING_NOW">BOOKING NOW</button>
+        </section>
+    <section class="free_packages">
+        <img src="image/thehub.jpg" alt="">
+        <div class="overlay3">
+            <h2 id="PACKAGES"></h2>
+            <a class="free_inspection" id="free_inspection"></a>  
+        </div>
+        <div class="popup-box1">
+            <div class="popup-buttons-container1">
+                <h2 id="free_inspection1"></h2>
+                <input type="text" placeholder="First Name" id="first_name">
+                <input type="text" placeholder="Last Name" id="last_name">
+                <input type="email" placeholder="Email" id="email">
+                <input type="tel" placeholder="Phone" id="phone">
+                <select id="city">
+                    <option value="abu_dhabi">Abu Dhabi</option>
+                    <option value="ajman">Ajman</option>
+                    <option value="dubai">Dubai</option>
+                    <option value="fujairah">Fujairah</option>
+                    <option value="ras_al_khaimah">Ras Al Khaimah</option>
+                    <option value="sharjah">Sharjah</option>
+                    <option value="umm_al_quwain">Umm Al Quwain</option>
+                </select>
+                <input type="text" placeholder="Area" id="Area">
+                <textarea placeholder="Message" id="Message"></textarea>
+                <button onclick="redirectToAnotherPage()">Send</button>
+            </div>
+        </div>   
+    </section>
+    <div class="container_icon">
+        <div class="icon-box">
+            <div class="icon"><img id="icon1" src="image/New folder (2)/ac_icon.png" alt="صيانة الكهرباء"></div>
+            <div class="icon"><img id="icon2" src="image/New folder (2)/ELECTRICAL_icon.png" alt="مفتاح الصوانيع"></div>
+            <div class="icon"><img id="icon3" src="image/New folder (2)/CURTAIN_icon.png" alt="مفتاح الصوانيع"></div>
+            <div class="icon"><img id="icon4" src="image/New folder (2)/TILES_icon.png" alt="مفتاح الصوانيع"></div>
+            <div class="icon"><img id="icon5" src="image/New folder (2)/PLUMBING_icon.png" alt="مفتاح الصوانيع"></div>
+            <div class="icon"><img id="icon6" src="image/New folder (2)/PAINTING_icon.png" alt="مفتاح الصوانيع"></div>
+          </div>
+      </div>
+
+    <div class="container_package">
+        <div class="package">
+            <div class="package1">
+                <h2 id="REGULAR"></h2>
+            </div>
+            <P id="start_from"></P>
+            <p class="price" id="100aed"></p>
+            <ul class="items">
+                <li><span class="availability available">&#10003;</span><p class="service-item" data-type="helpline"></p></li>
+                <li><span class="availability available">&#10003;</span><p class="service-item" data-type="emergency"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="regular"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="acmaintenance"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="electricalmaintenance"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="plumbingmaintenance"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="thermographicinspection"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="drainagemaintenance"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="electricalsurvey"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="emergencyresponse"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="nonemergencyresponse"></p></li>
+            </ul>
+            
+            <button class="read-more-btn"></button>
+        </div>
+        <div class="package">
+            <div class="package2">
+                <h2 id="PREMIUM"></h2>
+            </div>
+            <P id="start_from1"></P>
+            <p class="price" id="150aed">150 AED/month</p>
+            <ul class="items">
+                <li><span class="availability available">&#10003;</span><p class="service-item" data-type="helpline"></p></li>
+                <li><span class="availability available">&#10003;</span><p class="service-item" data-type="emergency"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="regular"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="acmaintenance"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="electricalmaintenance"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="plumbingmaintenance"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="thermographicinspection"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="drainagemaintenance"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="electricalsurvey"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="emergencyresponse"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="nonemergencyresponse"></p></li>
+            </ul>
+            
+            <button class="read-more-btn">VIEW DETAILS</button>
+        </div>
+        <div class="package">
+            <div class="package3">
+                <h2 id="ULTIMATE"></h2>
+            </div>
+            <P id="start_from2"></P>
+            <p class="price" id="200aed">200 AED/month</p>
+            <ul class="items">
+                <li><span class="availability available">&#10003;</span><p class="service-item" data-type="helpline"></p></li>
+                <li><span class="availability available">&#10003;</span><p class="service-item" data-type="emergency"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="regular"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="acmaintenance"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="electricalmaintenance"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="plumbingmaintenance"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="thermographicinspection"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="drainagemaintenance"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="electricalsurvey"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="emergencyresponse"></p></li>
+                <li><span class="availability unavailable">&#10007;</span><p class="service-item" data-type="nonemergencyresponse"></p></li>
+            </ul>
+            
+            <button class="read-more-btn"></button>
+        </div>
+        
+ </div>
+
+ <div class="all-package">
+ <div class="package-selection">
+    <label for="package-select" id="Choose_Package"></label>
+    <select id="package-select">
+        <option value="" disabled selected id="Select_package"></option>
+        <option value="regular" data-price="100" id="REGULAR_month"></option>
+        <option value="premium" data-price="150" id="PREMIUM_month"></option>
+        <option value="ultimate" data-price="200" id="ULTIMATE_month"></option>
+    </select>
+</div>
+
+<div class="user-input" style="display: none;">
+    <label for="rooms" id="Number_room"></label>
+    <select id="rooms">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+    
+    <label for="ac" id="Number_AC"></label>
+    <select id="ac">    
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    
+    <p id="Total_Price">Total Price: <span id="total-price">0</span> AED/month</p>
+    <button id="pay-button" style="display: none;"></button>
+    <div id="payment-options" style="display: none;">
+        <button id="apple-pay-button">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Apple_Pay_logo.svg/2560px-Apple_Pay_logo.svg.png" alt="Apple Pay" class="payment-logo">
+            Pay with Apple Pay
+        </button>
+        <button id="bank-transfer-button">
+            <img src="https://play-lh.googleusercontent.com/cJr7uiL7g1Kpx3rifPqCscCJ13q3BXO_lc9nMF2Rl1UDxcX5NZThapys6aVtdcgKyk_O" alt="Bank Transfer" class="payment-logo">
+            Bank Transfer
+        </button>
+    </div>
+</div>
+</div>
+<div class="container5">
+    <div class="footer-logo" style="float: right;">
+        <img src="image/thehub-logo-whaite.png" alt="شعار الشركة">
+        <h1 id="welcome"></h1>
+        <p id="welcome-text"></p>
+    </div>
+        <div class="footer-links">
+            <div class="footer-link-group">
+                <a href="index.html" id="homeButton1"></a>
+                <a href="aboutUs.html" id="aboutButton1"></a>
+                <a href="services.html"id="servicesButton1"></a>
+                <a href="Packages.html"id="PackagesButton1"></a>
+                <a href="contact.html" id="contactButton1"></a>
+            </div>
+        </div>
+       
+        <div class="footer-links">
+            <div class="footer-link-group">
+                <a href="#" id="profileButton1"></a>
+                <h1 id="join-us"></h1>
+                <div class="social-media-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/m.hub.ae/"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/mhubae2023" ><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/the-hub-for-general-maintenance" ><i class="fab fa-linkedin"></i></a>
+                </div>
+                <h1 id="our-app"></h1>
+                <div class="our_app">
+                    <a href="https://play.google.com/store/apps/details?id=com.services.maintance"> <img src="image/google-play.png" alt=""> </a>
+                    <a href="https://apps.apple.com/us/app/the-hub/id6448638671"> <img src="image/download-apple.png" alt=""></a>
+                 </div>
+                
+            </div>
+        </div>
+        <div class="footer-links">
+            <div class="map">
+                <iframe class="map-footer"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15000.3!2d54.385040!3d24.471149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2z25.276987N, 55.296249E!5e0!3m2!1sen!2s!4v1607289332461!5m2!1sen!2s"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>         
+</div>
+<footer>
+    <div class="footer-text">
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+    <script src="language.js"></script>
+
+
+</body>
+</html>  

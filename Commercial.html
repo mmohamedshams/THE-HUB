@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" >
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.10.1"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title id="Commercial-title"></title>
+    <link rel="icon" href="image/icon.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css"  id="theme">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+   
+    <div class="content1">
+      
+        
+    <div class="header"> 
+        <nav class="header_slider">
+            <a id="menu-toggle"><i class="fas fa-bars"></i></a>
+           
+        </nav>
+        <div class="right-items">
+            <a href="#" class="Customize" id="Customize"></a>
+        </div>
+        <div class="popup-box">
+            <h1 id="Pick_Service_Type">Pick Service Type</h1>
+            <div class="popup-buttons-container">
+            <button class="popup-button" id="Residential">Residential</button>
+            <button class="popup-button" id="Commercial">Commercial</button>
+        </div>
+        
+        </div>
+        
+        <div class="overlay1"></div>
+        
+        
+        <div id="slider">
+
+           
+            <a class="logo" href=""><img src="image/thehub-logo.png" alt="Day Image" id="themeImage">
+            </a>
+            <p>Discover a world of possibilities!</p>
+            <nav class="slider-button">
+                <a href="index.html"><button id="homeButton"></button></a>
+                <a href="aboutUs.html"><button id="aboutButton"></button></a>
+                <a href="services.html"><button id="servicesButton"></button></a>
+                <a href="Packages.html"><button id="PackagesButton"></button></a>
+                <a href="contact.html"><button id="contactButton"></button></a>
+                <a href="image/4d839f51-622b-4fdc-a647-864fd929ad1e.pdf" target="_blank"> <button id="profileButton"></button></a>
+                <button id="languageButton"></button>   
+            </nav>
+           
+        </div>
+
+    </div>
+<section class="main-content" style="display: none;">
+    <img src="image/New Project (1).jpg" alt="">
+    <a href="Packages.html" target="_blank"><button id="Packages">Maintenance Packages</button></a>
+</section>
+
+<section class="weclome" style="display: none;">
+    <div class="column one-third">
+        <h2 id="Home_Maintenance_Services">Home Maintenance Services</h2>   
+    </div>
+    <div class="column two-thirds">    
+    <p id="24_7_home_maintenance">A unique and groundbreaking 24/7 home maintenance service providing customized and personalized solutions to homeowners through a network of skilled and highly capable workers.</p>
+    </div>
+</section> 
+<section class="thehub" style="display: none;">
+    <h1 id="HowWorks">How it works</h1>
+    <div class="gallery">
+        <div class="image-item">
+            <img src="image/New folder/1.png" id="gallery1">
+            <p id="Works1">Choose a date and time that works for you, and tell us what you need.</p>
+        </div>
+        <div class="image-item">
+            <img src="image/New folder/2.png" id="gallery2">
+            <p id="Works2">THEHUB will find the perfect pro in minutes.</p>
+        </div>
+        <div class="image-item">
+            <img src="image/New folder/3.png" id="gallery3">
+            <p id="Works3">Your THEHUB gets the job done while you relax.</p>
+        </div>
+        <div class="image-item">
+            <img src="image/New folder/4.png" id="gallery4">
+            <p id="Works4">THEHUB syncs your job status, messages, and receipt all in one place.</p>
+        </div>
+    </div>
+    <button onclick="alert('تم الضغط على الزر!')" id="BOOKING_NOW">BOOKING NOW</button>
+</section>
+
+<div class="overlay2" id="overlay">
+    <div class="popup1" id="popup">
+        <h2 id="Custom"></h2>
+        <div id="name-container">
+            <input type="text" placeholder="First Name" id="first_name">
+            <input type="text" placeholder="Last Name" id="last_name">
+        </div>
+        <input type="email" placeholder="Email" id="email">
+        <input type="tel" placeholder="Phone" id="phone">
+        <select id="city">
+            <option value="abu_dhabi">Abu Dhabi</option>
+            <option value="ajman">Ajman</option>
+            <option value="dubai">Dubai</option> 
+            <option value="fujairah">Fujairah</option>
+            <option value="ras_al_khaimah">Ras Al Khaimah</option>
+            <option value="sharjah">Sharjah</option>
+            <option value="umm_al_quwain">Umm Al Quwain</option>
+        </select>
+       <input type="text" placeholder="Area" id="Area" >
+       <form id="service-form" class="service-form">
+        <div class="checkbox-group">
+            <label><input type="checkbox" name="AC_SERVICES" value="AC SERVICES" /> <span class="checkbox-label" data-type="ac">AC</span> </label>
+            <label><input type="checkbox" name="ELECTRICAL" value="ELECTRICAL" /> <span class="checkbox-label" data-type="electrical">ELECTRICAL</span></label>
+            <label><input type="checkbox" name="PLUMBING" value="PLUMBING" /> <span class="checkbox-label" data-type="plumbing">PLUMBING</span></label>
+            <label><input type="checkbox" name="BATHROOM" value="BATHROOM" /> <span class="checkbox-label" data-type="bathroom">BATHROOM</span></label>
+        </div>
+        
+        <div class="checkbox-group">
+            <label><input type="checkbox" name="CARPENTRY" value="CARPENTRY" /> <span class="checkbox-label" data-type="carpentry">CARPENTRY</span></label>
+            <label><input type="checkbox" name="PAINTING" value="PAINTING" /> <span class="checkbox-label" data-type="painting">PAINTING</span></label>
+            <label><input type="checkbox" name="TILES" value="TILES" /> <span class="checkbox-label" data-type="tiles">TILES</span></label>
+            <label><input type="checkbox" name="CURTAIN" value="CURTAIN" /> <span class="checkbox-label" data-type="curtain">CURTAIN</span></label>
+        </div>
+        
+        <div class="checkbox-group center-checkbox">
+            <label><input type="checkbox" name="MOVERS_HOME" value="MOVERS HOME" /> <span class="checkbox-label" data-type="movers">MOVERS HOME</span></label>
+        </div>
+    
+        
+    </form>
+    
+      
+      
+        <textarea placeholder="Message" id="Message"></textarea>
+        <button onclick="redirectToAnotherPage()">Send</button>
+    </div>
+</div>
+ 
+
+</div>
+    <script src="script.js"></script>
+    <script src="language.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</body>
+</html>  

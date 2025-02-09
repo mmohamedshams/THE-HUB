@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" >
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.10.1"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title id="home-title"></title>
+    <link rel="icon" href="image/icon.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css"  id="theme">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<div class="loading-screen">
+    <div class="loader-container">
+        <div class="loader"></div>
+        <img src="image/thehub-logo.png" alt="صورة" class="centered-image">
+    </div>
+</div>
+<body>
+    
+<div class="content">
+        <a href="https://apps.apple.com/us/app/the-hub/id6448638671" target="_blank">
+            <img src="image/hand phone1.png" id="languageImage" class="hand_phone" alt="Image description in English">
+        </a>
+        <div class="whatsapp-container">
+            <a href="https://wa.me/971504141586" target="_blank" class="whatsapp-link">
+                <img src="image/whats_app.png" id="whats_app" class="whats_app" alt="Image description in English">
+                <span class="whatsapp-tooltip">whatsapp</span>
+            </a>
+        </div>        
+        
+    <div class="header"> 
+        <nav class="header_slider">
+            <a id="menu-toggle" ><i class="fas fa-bars"></i></a>
+           
+        </nav>
+        <div class="right-items">
+            <a href="#" class="Customize" id="Customize"></a>
+        </div>
+        <div class="popup-box">
+            <h1 id="Pick_Service_Type">Pick Service Type</h1>
+            <div class="popup-buttons-container">
+            <a href="Residential.html"><button class="popup-button" id="Residential">Residential</button></a>
+            <a href="Commercial.html"><button class="popup-button" id="Commercial">Commercial</button></a>
+        </div>
+        
+    </div>
+        
+    <div class="overlay1"></div>
+        
+        
+    <div id="slider">
+
+        
+            <a class="logo" href=""><img src="image/thehub-logo.png" alt="Day Image" id="themeImage"></a>
+            <p>Discover a world of possibilities!</p>
+            <nav class="slider-button">
+                <a href="index.html"><button id="homeButton"></button></a>
+                <a href="aboutUs.html"><button id="aboutButton"></button></a>
+                <a href="services.html"><button id="servicesButton"></button></a>
+                <a href="Packages.html"><button id="PackagesButton"></button></a>
+                <a href="contact.html"><button id="contactButton"></button></a>
+                <a href="image/4d839f51-622b-4fdc-a647-864fd929ad1e.pdf" target="_blank"> <button id="profileButton"></button></a>
+                <button id="languageButton"></button>   
+            </nav>
+           
+    </div>
+
+    </div>
+
+<section class="main-content">
+    <img src="image/New Project (1).jpg" alt="">
+    <a href="Packages.html" target="_blank"><button id="Packages"></button></a>
+</section>
+
+<section class="weclome">
+    <div class="column one-third">
+        <h2 id="Home_Maintenance_Services"></h2>   
+    </div>
+    <div class="column two-thirds">    
+    <p id="24_7_home_maintenance"></p>
+    </div>
+</section> 
+<section class="thehub">
+    <h1 id="HowWorks"></h1>
+    <div class="gallery">
+        <div class="image-item">
+            <img src="image/New folder/1.png" id="gallery1">
+            <p id="Works1"></p>
+        </div>
+        <div class="image-item">
+            <img src="image/New folder/2.png" id="gallery2">
+            <p id="Works2"></p>
+        </div>
+        <div class="image-item">
+            <img src="image/New folder/3.png" id="gallery3">
+            <p id="Works3"></p>
+        </div>
+        <div class="image-item">
+            <img src="image/New folder/4.png" id="gallery4">
+            <p id="Works4"></p>
+        </div>
+    </div>
+   <a href="http://localhost/New%20folder3/"  target="_blank"><button  id="BOOKING_NOW"></button></a> 
+</section>
+    <section class="The_app">
+        <div class="column1 one-third1">
+            <h2  id="The_app_header"></h2> 
+            <p id="Our_application"></p>  
+        </div>
+        <div class="column1 two-thirds1">    
+            <img id="rotating-image" src="image/AC.jpg" alt="Maintenance Image" >
+        </div>
+    </section>
+    <section class="workers" id="numberworks">
+        <div class="image-container">
+            <img src="image/workers.png" alt="">
+            <div class="numbers-box">
+                <h1 id="we_have"></h1>
+                <div class="numbers-container">
+                    <div class="number-item">
+                        <p class="numberbox" data-target="80">0</p>
+                        <p class="descriptionbox" id="Units_Number"></p>
+                    </div>
+                    <div class="number-item">
+                        <p class="numberbox" data-target="1">0</p>
+                        <p class="descriptionbox" id="Building_Number"></p>
+                    </div>
+                    <div class="number-item">
+                        <p class="numberbox" data-target="473">0</p>
+                        <p class="descriptionbox" id="Maintenance_Operations_Number"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<section class="image-slider-container" >
+        <h1 id="Our_customers"></h1>
+        <div class="logo-slider">
+            <div class="logo-track">
+            <img src="https://static.wixstatic.com/media/989593_132932011e0d49ec9dbb6a338ba3cc64~mv2.png/v1/fill/w_436,h_199,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/AJYAL-LOGO-ALFALAH-New%20version-01-png_pn.png" alt="Image 1">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAY1BMVEX///8DAwQAAADk5OQ7Ozve3t5BQUHa2tpfX18qKivw8PClpaX5+fmKioqysrMiIiPBwcJvb3Dq6utMTEzOzs50dHSWlpczMzR6enrHx8e7u7sXFxgODg/U1NSDg4NUVFVnZ2f18zKDAAAESklEQVRoge2YDZOjIAyGFdQqItZPFK32///KS1DUar21XTtzN9Ps7K5SeIwQkpdarXQ+ZLK15JW6HzFaO5bjWh8y6n3hX/gX/oUfNl6LwVQKADFZzU+ApxkZLL5aVkgm8+l/ALfRDNwe7N+EuyL9GJz3JBPsQ3C9an7OPwF3PQAQEkQD/lx42GoAIZ46HU79cbymnQyv5QgjETsdPs6KTbzcOhvOIzJOeZKeDmfVyLIjfjo8TUZWW5oxJ3pemPXsBs/rYGwIzptzWNBav0kx3d9OiJbGuN6Hea6KxoT9PT0hzh1DI410YkMjdsl/XyzSu3HO1hBzLXGWfl2JRDvRZyOkwvWl9fVawy/Y5b0CXZEtnXiXCcKeD/sJzhlj3KLZhk4aYfpcveLydPBP8LyqqjK16v6RDpW/nNlYSN6BC1ioFjZP7i/phMjQTIXycDGz+g04ZEQwSCppGc9xQe6Tp0oSXaaeUX70vNVDC4gyWvZO3DRx4BXgJhsypJh2lLcOxINwoGeoLdhNiVDlQOF5oedcxVPUk2oTMwemZVzAuzJtnKrIIRFehfG8p2KxHvwj3J62fqb1rRJl5we4DvgxE96UDUwtOQ4vZ88yzL5N3Ogltge4ZV2mMHp5+/NihicAT6bkYuBWWpkS+yqc9nPO6ga4uY2mPvfxca/CVTBHQ7gDt/L4LTibMxZp6z24lbwFF/E8K5LuwsM34FzIOZ+QhJ8DxzzL0jxqFmyc8jWc3XI0lb0AZ2HXdYUvH/Kgc9vCb32A1rwSiqBqybJY2lPmWMFzuez3Atx+MBLozLKGO8tuh+H2ij2mvM/AR/G8nZbfw4kdWk/hJ3g+KdBT4D15tMok6jEraltEyyuKiyZxsDBZTkqKVVMrSotbtuwXFEfgnF6WRhcqLZ2bIXy4u9txF36a7cI5mLlYNPFlh7mVr53+K5x2RVHhHLpVUejdycukgLZIDQpCwI3gmDoLtC7cypZduJbdKE3qqdCP3w+1d0xhLkZU7+oT02DOVi7uwJmORj9dwQf1j80CxR0KXYTbWhH4a2WxB89b0rZEXldwGUUoWYTFOngFGzMOwpuyxA83WnQHDgc4R+pT7QO8pyhkSGXdQAv18PSbhgeu/ns9BmcwNqr0pK7htwYmAIVYA0UQypP2PEngWpeTA3AFyk+pBuXfGg4TRnwOGT/DXJBxPAKP+WATjs9rKHqTwWuTguUwrEsZ/CD8wjuMohzcl1gHSa0XNLbxiRsfn8JvnslFjotw6fd+UgM8uPvwxKaORm8hNyI8LiG4nO256Ckcjsyt9Dz0LMzJAGpEZt6/ow4APc+DcPTcChdUBE9E7lM4HGqJo1wXZBrxr+M7tGLcREGUYlt0cS/4pUAI8JgOs3UkcTFRlgo7qrIM3bDUFrpC/xdwlM3hFnc7hc/yGm6YvhTro8U/9/35F/6Ff+Ff+AG4rOmHrHas1vE+ZE77B6r0UpLYoXJaAAAAAElFTkSuQmCC" alt="Image 2">
+            <img src="https://www.asteco.com/media/s2bab03k/microsoftteams-image.png" alt="Image 3">
+            <img src="https://aignermunich.ae/media/logo/websites/7/aigner-logo2.jpg" alt="Image 4">
+          
+            <img src="https://static.wixstatic.com/media/989593_132932011e0d49ec9dbb6a338ba3cc64~mv2.png/v1/fill/w_436,h_199,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/AJYAL-LOGO-ALFALAH-New%20version-01-png_pn.png" alt="Image 1">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAY1BMVEX///8DAwQAAADk5OQ7Ozve3t5BQUHa2tpfX18qKivw8PClpaX5+fmKioqysrMiIiPBwcJvb3Dq6utMTEzOzs50dHSWlpczMzR6enrHx8e7u7sXFxgODg/U1NSDg4NUVFVnZ2f18zKDAAAESklEQVRoge2YDZOjIAyGFdQqItZPFK32///KS1DUar21XTtzN9Ps7K5SeIwQkpdarXQ+ZLK15JW6HzFaO5bjWh8y6n3hX/gX/oUfNl6LwVQKADFZzU+ApxkZLL5aVkgm8+l/ALfRDNwe7N+EuyL9GJz3JBPsQ3C9an7OPwF3PQAQEkQD/lx42GoAIZ46HU79cbymnQyv5QgjETsdPs6KTbzcOhvOIzJOeZKeDmfVyLIjfjo8TUZWW5oxJ3pemPXsBs/rYGwIzptzWNBav0kx3d9OiJbGuN6Hea6KxoT9PT0hzh1DI410YkMjdsl/XyzSu3HO1hBzLXGWfl2JRDvRZyOkwvWl9fVawy/Y5b0CXZEtnXiXCcKeD/sJzhlj3KLZhk4aYfpcveLydPBP8LyqqjK16v6RDpW/nNlYSN6BC1ioFjZP7i/phMjQTIXycDGz+g04ZEQwSCppGc9xQe6Tp0oSXaaeUX70vNVDC4gyWvZO3DRx4BXgJhsypJh2lLcOxINwoGeoLdhNiVDlQOF5oedcxVPUk2oTMwemZVzAuzJtnKrIIRFehfG8p2KxHvwj3J62fqb1rRJl5we4DvgxE96UDUwtOQ4vZ88yzL5N3Ogltge4ZV2mMHp5+/NihicAT6bkYuBWWpkS+yqc9nPO6ga4uY2mPvfxca/CVTBHQ7gDt/L4LTibMxZp6z24lbwFF/E8K5LuwsM34FzIOZ+QhJ8DxzzL0jxqFmyc8jWc3XI0lb0AZ2HXdYUvH/Kgc9vCb32A1rwSiqBqybJY2lPmWMFzuez3Atx+MBLozLKGO8tuh+H2ij2mvM/AR/G8nZbfw4kdWk/hJ3g+KdBT4D15tMok6jEraltEyyuKiyZxsDBZTkqKVVMrSotbtuwXFEfgnF6WRhcqLZ2bIXy4u9txF36a7cI5mLlYNPFlh7mVr53+K5x2RVHhHLpVUejdycukgLZIDQpCwI3gmDoLtC7cypZduJbdKE3qqdCP3w+1d0xhLkZU7+oT02DOVi7uwJmORj9dwQf1j80CxR0KXYTbWhH4a2WxB89b0rZEXldwGUUoWYTFOngFGzMOwpuyxA83WnQHDgc4R+pT7QO8pyhkSGXdQAv18PSbhgeu/ns9BmcwNqr0pK7htwYmAIVYA0UQypP2PEngWpeTA3AFyk+pBuXfGg4TRnwOGT/DXJBxPAKP+WATjs9rKHqTwWuTguUwrEsZ/CD8wjuMohzcl1gHSa0XNLbxiRsfn8JvnslFjotw6fd+UgM8uPvwxKaORm8hNyI8LiG4nO256Ckcjsyt9Dz0LMzJAGpEZt6/ow4APc+DcPTcChdUBE9E7lM4HGqJo1wXZBrxr+M7tGLcREGUYlt0cS/4pUAI8JgOs3UkcTFRlgo7qrIM3bDUFrpC/xdwlM3hFnc7hc/yGm6YvhTro8U/9/35F/6Ff+Ff+AG4rOmHrHas1vE+ZE77B6r0UpLYoXJaAAAAAElFTkSuQmCC" alt="Image 2">
+            <img src="https://www.asteco.com/media/s2bab03k/microsoftteams-image.png" alt="Image 3">
+            <img src="https://aignermunich.ae/media/logo/websites/7/aigner-logo2.jpg" alt="Image 4">
+            
+            <img src="https://static.wixstatic.com/media/989593_132932011e0d49ec9dbb6a338ba3cc64~mv2.png/v1/fill/w_436,h_199,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/AJYAL-LOGO-ALFALAH-New%20version-01-png_pn.png" alt="Image 1">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAY1BMVEX///8DAwQAAADk5OQ7Ozve3t5BQUHa2tpfX18qKivw8PClpaX5+fmKioqysrMiIiPBwcJvb3Dq6utMTEzOzs50dHSWlpczMzR6enrHx8e7u7sXFxgODg/U1NSDg4NUVFVnZ2f18zKDAAAESklEQVRoge2YDZOjIAyGFdQqItZPFK32///KS1DUar21XTtzN9Ps7K5SeIwQkpdarXQ+ZLK15JW6HzFaO5bjWh8y6n3hX/gX/oUfNl6LwVQKADFZzU+ApxkZLL5aVkgm8+l/ALfRDNwe7N+EuyL9GJz3JBPsQ3C9an7OPwF3PQAQEkQD/lx42GoAIZ46HU79cbymnQyv5QgjETsdPs6KTbzcOhvOIzJOeZKeDmfVyLIjfjo8TUZWW5oxJ3pemPXsBs/rYGwIzptzWNBav0kx3d9OiJbGuN6Hea6KxoT9PT0hzh1DI410YkMjdsl/XyzSu3HO1hBzLXGWfl2JRDvRZyOkwvWl9fVawy/Y5b0CXZEtnXiXCcKeD/sJzhlj3KLZhk4aYfpcveLydPBP8LyqqjK16v6RDpW/nNlYSN6BC1ioFjZP7i/phMjQTIXycDGz+g04ZEQwSCppGc9xQe6Tp0oSXaaeUX70vNVDC4gyWvZO3DRx4BXgJhsypJh2lLcOxINwoGeoLdhNiVDlQOF5oedcxVPUk2oTMwemZVzAuzJtnKrIIRFehfG8p2KxHvwj3J62fqb1rRJl5we4DvgxE96UDUwtOQ4vZ88yzL5N3Ogltge4ZV2mMHp5+/NihicAT6bkYuBWWpkS+yqc9nPO6ga4uY2mPvfxca/CVTBHQ7gDt/L4LTibMxZp6z24lbwFF/E8K5LuwsM34FzIOZ+QhJ8DxzzL0jxqFmyc8jWc3XI0lb0AZ2HXdYUvH/Kgc9vCb32A1rwSiqBqybJY2lPmWMFzuez3Atx+MBLozLKGO8tuh+H2ij2mvM/AR/G8nZbfw4kdWk/hJ3g+KdBT4D15tMok6jEraltEyyuKiyZxsDBZTkqKVVMrSotbtuwXFEfgnF6WRhcqLZ2bIXy4u9txF36a7cI5mLlYNPFlh7mVr53+K5x2RVHhHLpVUejdycukgLZIDQpCwI3gmDoLtC7cypZduJbdKE3qqdCP3w+1d0xhLkZU7+oT02DOVi7uwJmORj9dwQf1j80CxR0KXYTbWhH4a2WxB89b0rZEXldwGUUoWYTFOngFGzMOwpuyxA83WnQHDgc4R+pT7QO8pyhkSGXdQAv18PSbhgeu/ns9BmcwNqr0pK7htwYmAIVYA0UQypP2PEngWpeTA3AFyk+pBuXfGg4TRnwOGT/DXJBxPAKP+WATjs9rKHqTwWuTguUwrEsZ/CD8wjuMohzcl1gHSa0XNLbxiRsfn8JvnslFjotw6fd+UgM8uPvwxKaORm8hNyI8LiG4nO256Ckcjsyt9Dz0LMzJAGpEZt6/ow4APc+DcPTcChdUBE9E7lM4HGqJo1wXZBrxr+M7tGLcREGUYlt0cS/4pUAI8JgOs3UkcTFRlgo7qrIM3bDUFrpC/xdwlM3hFnc7hc/yGm6YvhTro8U/9/35F/6Ff+Ff+AG4rOmHrHas1vE+ZE77B6r0UpLYoXJaAAAAAElFTkSuQmCC" alt="Image 2">
+            <img src="https://www.asteco.com/media/s2bab03k/microsoftteams-image.png" alt="Image 3">
+            <img src="https://aignermunich.ae/media/logo/websites/7/aigner-logo2.jpg" alt="Image 4">
+       
+            <img src="https://static.wixstatic.com/media/989593_132932011e0d49ec9dbb6a338ba3cc64~mv2.png/v1/fill/w_436,h_199,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/AJYAL-LOGO-ALFALAH-New%20version-01-png_pn.png" alt="Image 1">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAY1BMVEX///8DAwQAAADk5OQ7Ozve3t5BQUHa2tpfX18qKivw8PClpaX5+fmKioqysrMiIiPBwcJvb3Dq6utMTEzOzs50dHSWlpczMzR6enrHx8e7u7sXFxgODg/U1NSDg4NUVFVnZ2f18zKDAAAESklEQVRoge2YDZOjIAyGFdQqItZPFK32///KS1DUar21XTtzN9Ps7K5SeIwQkpdarXQ+ZLK15JW6HzFaO5bjWh8y6n3hX/gX/oUfNl6LwVQKADFZzU+ApxkZLL5aVkgm8+l/ALfRDNwe7N+EuyL9GJz3JBPsQ3C9an7OPwF3PQAQEkQD/lx42GoAIZ46HU79cbymnQyv5QgjETsdPs6KTbzcOhvOIzJOeZKeDmfVyLIjfjo8TUZWW5oxJ3pemPXsBs/rYGwIzptzWNBav0kx3d9OiJbGuN6Hea6KxoT9PT0hzh1DI410YkMjdsl/XyzSu3HO1hBzLXGWfl2JRDvRZyOkwvWl9fVawy/Y5b0CXZEtnXiXCcKeD/sJzhlj3KLZhk4aYfpcveLydPBP8LyqqjK16v6RDpW/nNlYSN6BC1ioFjZP7i/phMjQTIXycDGz+g04ZEQwSCppGc9xQe6Tp0oSXaaeUX70vNVDC4gyWvZO3DRx4BXgJhsypJh2lLcOxINwoGeoLdhNiVDlQOF5oedcxVPUk2oTMwemZVzAuzJtnKrIIRFehfG8p2KxHvwj3J62fqb1rRJl5we4DvgxE96UDUwtOQ4vZ88yzL5N3Ogltge4ZV2mMHp5+/NihicAT6bkYuBWWpkS+yqc9nPO6ga4uY2mPvfxca/CVTBHQ7gDt/L4LTibMxZp6z24lbwFF/E8K5LuwsM34FzIOZ+QhJ8DxzzL0jxqFmyc8jWc3XI0lb0AZ2HXdYUvH/Kgc9vCb32A1rwSiqBqybJY2lPmWMFzuez3Atx+MBLozLKGO8tuh+H2ij2mvM/AR/G8nZbfw4kdWk/hJ3g+KdBT4D15tMok6jEraltEyyuKiyZxsDBZTkqKVVMrSotbtuwXFEfgnF6WRhcqLZ2bIXy4u9txF36a7cI5mLlYNPFlh7mVr53+K5x2RVHhHLpVUejdycukgLZIDQpCwI3gmDoLtC7cypZduJbdKE3qqdCP3w+1d0xhLkZU7+oT02DOVi7uwJmORj9dwQf1j80CxR0KXYTbWhH4a2WxB89b0rZEXldwGUUoWYTFOngFGzMOwpuyxA83WnQHDgc4R+pT7QO8pyhkSGXdQAv18PSbhgeu/ns9BmcwNqr0pK7htwYmAIVYA0UQypP2PEngWpeTA3AFyk+pBuXfGg4TRnwOGT/DXJBxPAKP+WATjs9rKHqTwWuTguUwrEsZ/CD8wjuMohzcl1gHSa0XNLbxiRsfn8JvnslFjotw6fd+UgM8uPvwxKaORm8hNyI8LiG4nO256Ckcjsyt9Dz0LMzJAGpEZt6/ow4APc+DcPTcChdUBE9E7lM4HGqJo1wXZBrxr+M7tGLcREGUYlt0cS/4pUAI8JgOs3UkcTFRlgo7qrIM3bDUFrpC/xdwlM3hFnc7hc/yGm6YvhTro8U/9/35F/6Ff+Ff+AG4rOmHrHas1vE+ZE77B6r0UpLYoXJaAAAAAElFTkSuQmCC" alt="Image 2">
+            <img src="https://www.asteco.com/media/s2bab03k/microsoftteams-image.png" alt="Image 3">
+            <img src="https://aignermunich.ae/media/logo/websites/7/aigner-logo2.jpg" alt="Image 4">
+        </div>
+        </div>
+</section>
+<div class="container5">
+    <div class="footer-logo" style="float: right;">
+        <img src="image/thehub-logo-whaite.png" alt="شعار الشركة">
+        <h1 id="welcome"></h1>
+        <p id="welcome-text"></p>
+    </div>
+        <div class="footer-links">
+            <div class="footer-link-group">
+                <a href="index.html" id="homeButton1"></a>
+                <a href="aboutUs.html" id="aboutButton1"></a>
+                <a href="services.html"id="servicesButton1"></a>
+                <a href="Packages.html"id="PackagesButton1"></a>
+                <a href="contact.html" id="contactButton1"></a>
+            </div>
+        </div>
+       
+        <div class="footer-links">
+            <div class="footer-link-group">
+                <a href="#" id="profileButton1"></a>
+                <h1 id="join-us"></h1>
+                <div class="social-media-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/m.hub.ae/"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/mhubae2023" ><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/the-hub-for-general-maintenance" ><i class="fab fa-linkedin"></i></a>
+                </div>
+                <h1 id="our-app"></h1>
+                <div class="our_app">
+                   <a href="https://play.google.com/store/apps/details?id=com.services.maintance" target="_blank"> <img src="image/google-play.png" alt=""> </a>
+                   <a href="https://apps.apple.com/us/app/the-hub/id6448638671" target="_blank"> <img src="image/download-apple.png" alt=""></a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer-links">
+            <div class="map">
+                <iframe class="map-footer"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15000.3!2d54.385040!3d24.471149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2z25.276987N, 55.296249E!5e0!3m2!1sen!2s!4v1607289332461!5m2!1sen!2s"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>         
+</div>
+<footer>
+    <div class="footer-text">
+    </div>
+</footer>
+</div>
+    <script src="script.js"></script>
+    <script src="language.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</body>
+</html>  
